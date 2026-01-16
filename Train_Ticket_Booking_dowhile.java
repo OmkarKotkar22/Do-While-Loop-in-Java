@@ -24,11 +24,8 @@ public class Train_Ticket_Booking_dowhile
                         System.out.println("Enter the seat no: ");
 			 f = sc.nextInt();
 			
-			
-                        
                         System.out.println("Enter the Choice ");
                         choice = sc.nextInt();
-
 
 			switch(choice)
 			{
@@ -66,7 +63,6 @@ public class Train_Ticket_Booking_dowhile
                                         }else{
                                           System.out.println("Seat  book");
                                          }
-
                                         
                                        break;
                                  case 5: 
@@ -76,10 +72,8 @@ public class Train_Ticket_Booking_dowhile
                                         }else{
                                           System.out.println("Seat  book");
                                          }
-
                                        break; 
 			}
-			
 		}
 		while(true);
 	}

@@ -25,9 +25,10 @@ public class Temperature_Logger_dowhile
 					{
 						System.out.println("todays temp: " + temp);
 					}
+				break; 
 
 				case 2:
-					break;
+					System.exit(0);
 			}
 		}
 		while(choice != 2);
