@@ -23,7 +23,8 @@ public class Menu_Driven_Calculator_dowhile
 					int a = sc.nextInt();
 					System.out.println("Enter the second number:");
 					int b = sc.nextInt();
-					System.out.println("Addition:"+ (a+b));
+					int add = a+b;
+					System.out.println("Addition:"+ add);
 					break;
 
 				case 2: 
@@ -31,7 +32,8 @@ public class Menu_Driven_Calculator_dowhile
 					a = sc.nextInt();
 					System.out.println("Enter the second number:");
 					b = sc.nextInt();
-					System.out.println("Subtraction:"+ (a-b));
+					int sub = a-b;
+					System.out.println("Subtraction:"+ sub);
 					break;
 
 				case 3: 
@@ -39,7 +41,8 @@ public class Menu_Driven_Calculator_dowhile
 					a = sc.nextInt();
 					System.out.println("Enter the second number:");
 					b = sc.nextInt();
-					System.out.println("Multiplication:"+ (a*b));
+					int mul = a*b;
+					System.out.println("Multiplication:"+ mul);
 					break;
 
 				case 4: 
@@ -47,7 +50,8 @@ public class Menu_Driven_Calculator_dowhile
 					a = sc.nextInt();
 					System.out.println("Enter the second number:");
 					b = sc.nextInt();
-					System.out.println("Division:"+ (a/b));
+					int cdiv= a/b;
+					System.out.println("Division:"+ div);
 					break;
 
 				case 5:

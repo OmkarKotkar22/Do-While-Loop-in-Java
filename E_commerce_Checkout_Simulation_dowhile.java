@@ -19,7 +19,6 @@ public class E_commerce_Checkout_Simulation_dowhile
             		System.out.print("Enter your choice: ");
             		choice = sc.next(); 
 
-            
             		if (choice.equals("skip")) 
 			{
         		        continue; 

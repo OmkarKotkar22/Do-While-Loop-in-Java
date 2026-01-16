@@ -8,7 +8,6 @@ public class bank_balance_do_while
 		int bal = sc.nextInt();
 		do
 		{
-
 			System.out.println("--------Menu--------");
 			System.out.println("1. Deposit Amount");
 			System.out.println("2. Withdrawal Amount");
